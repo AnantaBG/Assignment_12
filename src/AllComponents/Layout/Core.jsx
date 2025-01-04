@@ -4,7 +4,7 @@ import Navbar from "./Shared/Navbar/Navbar";
 
 const Core = () => {
     return (
-        <div>
+        <div className="font-mono">
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

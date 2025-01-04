@@ -8,7 +8,7 @@ const Navbar = () => {
                 <li><a>Item 3</a></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar max-w-screen-xl fixed z-10 bg-opacity-40  bg-black text-white">
         <div className="navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,15 +27,21 @@ const Navbar = () => {
             </div>
             <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                className="menu menu-sm dropdown-content bg-gray-600 rounded-xl z-[1] mt-3 w-52 p-2 ">
+                    <li className="">
                     {NavLinks}
-
+                    </li>
+                   
             </ul>
             </div>
-            <a className="btn btn-ghost text-xl">Bistro Boss</a>
+            <div className="flex flex-col">
+            <a className="btn btn-ghost text-4xl font-extrabold ">Bistro Boss</a>
+            <a className="btn btn-ghost text-4xl font-extralight font-mono">Restaurant</a>
+            </div>
+            
         </div>
         <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu text-xl menu-horizontal px-1">
             {NavLinks}
             </ul>
         </div>

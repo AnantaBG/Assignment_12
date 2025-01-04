@@ -10,27 +10,27 @@ const Banner = () => {
     return (
         <Carousel>
         <div>
-            <img src={img1}/>
+            <img className="brightness-75" src={img1}/>
             <p className="legend">Legend 1</p>
         </div>
         <div>
-            <img src={img2} />
+            <img className="brightness-75" src={img2} />
             <p className="legend">Legend 2</p>
         </div>
         <div>
-            <img src={img3} />
+            <img className="brightness-75" src={img3} />
             <p className="legend">Legend 3</p>
         </div>
         <div>
-            <img src={img4} />
+            <img className="brightness-75" src={img4} />
             <p className="legend">Legend 4</p>
         </div>
         <div>
-            <img src={img5} />
+            <img className="brightness-75" src={img5} />
             <p className="legend">Legend 5</p>
         </div>
         <div>
-            <img src={img6}/>
+            <img className="brightness-75" src={img6}/>
             <p className="legend">Legend 6</p>
         </div>
     </Carousel>
